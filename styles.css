@@ -1,3 +1,25 @@
+
+@font-face { font-family: 'Source Sans Pro-Black'; src: url(fonts/SourceSansPro-Black.otf); }
+@font-face { font-family: 'Source Sans Pro-Blacklt'; src: url(fonts/SourceSansPro-BlackIt.otf); }
+@font-face { font-family: 'Source Sans Pro-Bold'; src: url(fonts/SourceSansPro-Bold.otf); }
+@font-face { font-family: 'Source Sans Pro-Boldlt'; src: url(fonts/SourceSansPro-Boldlt.otf); }
+@font-face { font-family: 'Source Sans Pro-ExtraLight'; src: url(fonts/SourceSansPro-ExtraLight.otf); }
+@font-face { font-family: 'Source Sans Pro-ExtraLightlt'; src: url(fonts/SourceSansPro-ExtraLightIt.otf); }
+@font-face { font-family: 'Source Sans Pro-lt'; src: url(fonts/SourceSansPro-lt.otf); }
+@font-face { font-family: 'Source Sans Pro-Light'; src: url(fonts/SourceSansPro-Light.otf); }
+@font-face { font-family: 'Source Sans Pro-Lightlt'; src: url(fonts/SourceSansPro-Lightlt.otf); }
+@font-face { font-family: 'Source Sans Pro-Regular'; src: url(fonts/SourceSansPro-Regular.otf); }
+@font-face { font-family: 'Source Sans Pro-Semibold'; src: url(fonts/SourceSansPro-Semibold.otf); }
+
+
+.font-source-sans-pro {
+    font-family: 'Source Sans Pro';
+}
+
+.font-source-sans-pro-bold {
+    font-family: 'Source Sans Pro-Bold';
+}
+
 .navbar-background {
     background-image: url("images/background.png");
     background-size: cover; 
@@ -42,6 +64,46 @@
     font-weight: 600;
 }
 .first-word {
-
     color: #C271FF;
+}
+.videoCol {
+    padding: 20px;
+    border-radius: 5px 5px 0px 0px;
+    flex: 1;
+    min-width: 220px;
+    max-width: 300px; 
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.box {
+    border-radius: 5px 5px 0px 0px;
+    position: relative;
+    min-width: 255px;
+    height: 154px;
+}
+.inner-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-100%, -50%);
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.carousel-indicators {
+    position:absolute;
+    bottom: -30px;
+}
+.carousel-indicators [data-bs-target] {
+        background-color: black; /* Change indicator color if needed */
+}
+.custom-control-prev-icon {
+    background-image: url('images/arrowblackleft.png');
+}
+.custom-control-next-icon {
+    background-image: url('images/arrowblackright.png');
 }
