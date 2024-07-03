@@ -26,6 +26,15 @@
     background-position: center; 
     background-repeat: no-repeat; 
 }
+
+
+.navbar-pricingbackground {
+    background-image: url("images/backgroundpage2.png");
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
 @media (max-width: 576px) {
     .navbar-brand {
         position: absolute;
