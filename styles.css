@@ -119,3 +119,66 @@ body {
     justify-content: center;
     
 }
+
+
+
+
+
+footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #071629;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #FFFFFF;
+    max-width: 1440px; /* Adjust this to match your page's max width */
+    margin: 100 auto;
+}
+
+.footerCls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.footerTop {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 25px;
+    padding: 0 20px;
+}
+
+.footerLogo img {
+    height: 15px;
+    width: 100px;
+}
+
+.footerMenu {
+    display: flex;
+    gap: 10px;
+    
+}
+
+.footerMenu a img {
+    width: 15px;
+    height: 15px;
+}
+
+.footerText p {
+    text-align: center;
+    font-family: 'Source Sans Pro-ExtraLight';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    color: #FFFFFF;
+    font-weight: 200;
+    line-height: 15px;
+    text-align: left;
+}
