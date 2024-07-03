@@ -90,23 +90,66 @@
     </header>
     <main>
 
-    <!--  TESTIMONIALS --> 
+ 
+    <!--  TESTIMONIALS with Carousel --> 
     <section class="row d-flex p-5 justify-content-center" style="background-color: #C271FF; align-items: center;">
-        <div class="col-sm-12 justify-content-center p-5 d-flex">
-            <img src="images/testimonialface.png"  style="align-items: center;" alt="Quote Image">
+
+    <div id="carouselControlsTestimonial" class="carousel">
+        <div class="carousel-indicators">
+            <buttton type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 100"></buttton>
+            <buttton type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="1" aria-label="Slide 200"></buttton>
         </div>
-        <div class="col-sm-12 col-md-6 pt-6">
-            <blockquote class="p-1" style="align-items: center;">
-                <p style="font-family: font-sans-pro;  font-weight: 400; line-height: 33.6px; font-size: 22px;"">
-                    <span>« Those tutorials are concise and go straight to the point. I can’t think of a better place to learn smiling. And it’s so fun!
-                </span></p>
-                <p style="font-family: font-source-sans-pro-bold; font-size: x-large; font-weight:700px; line-height: 33.6px; text-align: left;">
-                    <span>Person Name</span></p>
-                <p style="font-family: font-sans-pro; font-style: italic; font-weight: 400; line-height: 33px; font-size: 22px;">
-                    <span>weather presenter</span></p>
-            </blockquote>
+        <div class="carousel-inner mb-5 col-sm-12 col-md-6 col-lg-3">
+            <div class="carousel-item active" data-bs-interval="10000">
+
+                <div class="col-sm-12 justify-content-center p-5 d-flex">
+                    <img src="images/testimonialface.png"  style="align-items: center;" alt="Quote Image">
+                </div>
+                <div class="col-sm-12 pt-6 justify-content-center d-flex" style="width: auto;">
+                    <blockquote class="p-1" style="align-items: center; width: 500px;">
+                        <p style="font-family: font-sans-pro;  font-weight: 400; line-height: 33.6px; font-size: 22px;"">
+                            <span>« Those tutorials are concise and go straight to the point. I can’t think of a better place to learn smiling. And it’s so fun!
+                        </span></p>
+                        <p style="font-family: font-source-sans-pro-bold; font-size: x-large; font-weight:700px; line-height: 33.6px; text-align: left;">
+                            <span>Person Name</span></p>
+                        <p style="font-family: font-sans-pro; font-style: italic; font-weight: 400; line-height: 33px; font-size: 22px;">
+                            <span>weather presenter</span></p>
+                    </blockquote>
+                </div>
+
+            </div>
         </div>
+
+        <div class="carousel-item">
+                <div class="col-sm-12 justify-content-center p-5 d-flex">
+                    <img src="images/testimonialface.png"  style="align-items: center;" alt="Quote Image">
+                </div>
+                <div class="col-sm-12 pt-6 d-flex justify-content-center" style="width: auto;">
+                    <blockquote class="p-1" style="align-items: center; width: 500px">
+                        <p style="font-family: font-sans-pro;  font-weight: 400; line-height: 33.6px; font-size: 22px;"">
+                            <span>« Those tutorials are concise and go straight to the point. I can’t think of a better place to learn smiling. And it’s so fun!
+                        </span></p>
+                        <p style="font-family: font-source-sans-pro-bold; font-size: x-large; font-weight:700px; line-height: 33.6px; text-align: left;">
+                            <span>Person Name</span></p>
+                        <p style="font-family: font-sans-pro; font-style: italic; font-weight: 400; line-height: 33px; font-size: 22px;">
+                            <span>weather presenter</span></p>
+                    </blockquote>
+                </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselControlsTestimonial" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselControlsTestimonial" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden"> Next</span>
+        </button>
+    </div>
     </section>
+
+
+
+
 
      <!--  MOST POPULAR TUTORIALS  HEADER--> 
     <div class="row d-flex justify-content-between pt-5" style = "text-align: center; font-family: font-source-sans-pro-bold">
