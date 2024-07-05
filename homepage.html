@@ -93,16 +93,19 @@
         </section>
     </header>
     <main>
-
  
     <!--  TESTIMONIALS with Carousel --> 
     <section class="row d-flex p-5 justify-content-center" style="background-color: #C271FF; align-items: center;">
 
-    <div id="carouselControlsTestimonial" class="carousel">
+    <div id="carouselControlsTestimonial" class="carousel slide">
         <div class="carousel-indicators">
-            <buttton type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 100"></buttton>
-            <buttton type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="1" aria-label="Slide 200"></buttton>
+            <button type="button" data-bs-target="#carouselControlsTestimonial" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 100">
+                          </button>
+            <button type="button" data-bs-target="#carouselControlsTestimonial" data-bs-slide-to="1" aria-label="Slide 200">
+            </button>
         </div>
+
+        <!-- Carousel items -->
         <div class="carousel-inner mb-5 col-sm-12 col-md-6 col-lg-3">
             <div class="carousel-item active" data-bs-interval="10000">
 
@@ -140,6 +143,8 @@
                     </blockquote>
                 </div>
         </div>
+
+        <!-- Controls -->
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselControlsTestimonial" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
@@ -166,17 +171,21 @@
   
     <!--  MOST POPULAR TUTORIALS --> 
     <div id="carouselControls" class="carousel">
-        <div class="carousel-indicators">
-            <buttton type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></buttton>
-            <buttton type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="1" aria-label="Slide 2"></buttton>
-            <buttton type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="2" aria-label="Slide 3"></buttton>
-            <buttton type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="3" aria-label="Slide 4"></buttton>
+        <div class="carousel-indicators" >
+            <button type="button" data-bs-target="#carouselControls" data-bs-slide-to="0" class="active"  #555;" aria-current="true" aria-label="Slide 1">
+              </button>
+            <button type="button" data-bs-target="#carouselControls" data-bs-slide-to="1" aria-label="Slide 2">
+            </button>
+            <button type="button" data-bs-target="#carouselControls" data-bs-slide-to="2"  aria-label="Slide 3">
+            </button>
+            <button type="button" data-bs-target="#carouselControls" data-bs-slide-to="3"  aria-label="Slide 4">
+            </button>
         </div>
         <div class="carousel-inner mb-5 col-sm-12 col-md-6 col-lg-3">
             <div class="carousel-item active" data-bs-interval="10000">
                 <!-- <div class="col-sm-12 col-md-6 col-lg-3 mb-md-0 d-flex justify-content-between"  > -->
                     <div class="container mt-5" style="width: 290px;">
-                        <div class="box">
+                        <div class="box d-block w-100">
                             <img src="images/DiagonalSmile.png" alt="Natural Smile">
                             <img src="images/play.png" class=" inner-box" alt="play button">
                         </div>
@@ -315,12 +324,12 @@
             </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselControls" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="carousel-control-prev-icon" style="border-width: 0 3px 3px 0; background-image: none;display: d-inline-block;border: solid black;" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
         </button>
         <button class="carousel-control-next" type="button" data-bs-target="#carouselControls" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden"> NEXT <img src="images/arrowblackright.png"></span>
+            <span class="carousel-control-next-icon" style="border-width: 0 0px 3px 0; background-image: none;display: d-inline-block;border: solid black;" aria-hidden ="true"></span>
+            <span class="visually-hidden"> NEXT </span>
         </button>
 
     </div>
@@ -334,11 +343,11 @@
                 <span style="font-family: Source Sans Pro-light; line-height: 40.22px; font-weight: 300; font-size: 32px;">
                 membership</h1> 
             </div>
-            <div class="container mt-3" style="width: 300px">
-                <div class="col-sm-6 mt-3" style="width: 300px">
-                    <div class="col-sm-12 col-md-6 mb-3 mb-md-0 justify-content-between" style="width: 300px">
+            <div class="container mt-3" style="width: auto">
+                <div class="row mt-3 justify-content-around m-0 pt-sm-0  align-items-center">   
+                    <div class="col-sm-12 col-md-6 col-lg-3 mb-3 mb-md-0">
                         
-                        <img src="images/smile.png" class="col mt-3 p-3" style="text-align: center;" alt="smile img">
+                        <img src="images/smile.png" class="mt-3 p-3" style="text-align: center;" alt="smile img">
                         <h2 class="pt-3 px-3"
                         style="font-family: Source Sans Pro; font-size: 18px; font-weight: 600; line-height: 26px; text-align: center;">
                         Lorem ipsum</h2>
@@ -349,11 +358,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-6 mb-3 mb-md-0">
-                        
-                    <div class="col-sm-12 col-md-6 mb-3 mb-md-0 justify-content-between" style="width: 300px">
-                        
-                        <img src="images/smile.png" class="col mt-3 p-3" style="text-align: center;" alt="smile img">
+                    <div class="col-sm-12 col-md-6 col-lg-3 mb-3 mb-md-0">
+                      
+                        <img src="images/smile.png" class="mt-3 p-3" style="text-align: center;" alt="smile img">
                         <h2 class="pt-3 px-3"
                         style="font-family: Source Sans Pro; font-size: 18px; font-weight: 600; line-height: 26px; text-align: center;">
                         Lorem ipsum</h2>
@@ -363,12 +370,10 @@
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                             </div>
                         </div>
-                    </div>
-                    </div>
-                    <div class="col-sm-12 col-md-6 mb-3 mb-md-0">
-                    <div class="col-sm-12 col-md-6 mb-3 mb-md-0 justify-content-between" style="width: 300px">
-                        
-                        <img src="images/smile.png" class="col mt-3 p-3" style="text-align: center;" alt="smile img">
+                    </div>                   
+                    <div class="col-sm-12 col-md-6 col-lg-3 mb-3 mb-md-0">
+                      
+                        <img src="images/smile.png" class="mt-3 p-3" style="text-align: center;" alt="smile img">
                         <h2 class="pt-3 px-3"
                         style="font-family: Source Sans Pro; font-size: 18px; font-weight: 600; line-height: 26px; text-align: center;">
                         Lorem ipsum</h2>
@@ -378,12 +383,10 @@
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                             </div>
                         </div>
-                    </div>
-                    </div>
-                    <div class="col-sm-12 col-md-6 mb-3 mb-md-0">
-                    <div class="col-sm-12 col-md-6 mb-3 mb-md-0 justify-content-between" style="width: 300px">
-                        
-                        <img src="images/smile.png" class="col mt-3 p-3" style="text-align: center;" alt="smile img">
+                    </div>        
+                    <div class="col-sm-12 col-md-6 col-lg-3 mb-3 mb-md-0">
+                       
+                        <img src="images/smile.png" class="mt-3 p-3" style="text-align: center;" alt="smile img">
                         <h2 class="pt-3 px-3"
                         style="font-family: Source Sans Pro; font-size: 18px; font-weight: 600; line-height: 26px; text-align: center;">
                         Lorem ipsum</h2>
@@ -393,8 +396,7 @@
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                             </div>
                         </div>
-                    </div>
-                    </div>
+                    </div>             
                 </div>
                 <button class="button-register mb-3">REGISTER FOR FREE</button>
             </div>
@@ -416,10 +418,10 @@
     <!--   LATEST VIDEOS --> 
     <div id="carouselControlsLatest" class="carousel">
         <div class="carousel-indicators">
-            <buttton type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 100"></buttton>
-            <buttton type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="1" aria-label="Slide 200"></buttton>
-            <buttton type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="2" aria-label="Slide 300"></buttton>
-            <buttton type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="3" aria-label="Slide 400"></buttton>
+            <buttton type="button" data-bs-target="#carouselControlsLatest" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 100"></buttton>
+            <buttton type="button" data-bs-target="#carouselControlsLatest" data-bs-slide-to="1" aria-label="Slide 200"></buttton>
+            <buttton type="button" data-bs-target="#carouselControlsLatest" data-bs-slide-to="2" aria-label="Slide 300"></buttton>
+            <buttton type="button" data-bs-target="#carouselControlsLatest" data-bs-slide-to="3" aria-label="Slide 400"></buttton>
         </div>
         <div class="carousel-inner mb-5 col-sm-12 col-md-6 col-lg-3">
             <div class="carousel-item active" data-bs-interval="10000">
@@ -574,18 +576,18 @@
     </div>
     </main>
 
-<footer style="text-align: center; width: 100%; background-color: #071629;">
+<footer class="row" style="text-align: center; width: 100%; background-color: #071629;">
         <div class="col-12 p-5 pb-2 mb-2">
             <div style="text-align: start; width: auto">
                 <img src="images/logo.png" alt="Footer logo Image">
             </div>
             <div style="text-align: end; width: 100%;">
-                <a href="Facebook"><img src="images/Facebook_White.png" alt="Facebook"></a>
+                <a href="Facebook"><img src="images/Facebook_White.png" style="width: 30px; height: 30px;" alt="Facebook"></a>
                 <a href="Twitter"><img src="images/Twitter_White.png" alt="Twitter"></a>
                 <a href="Instagram"><img src="images/Instagram_White.png" alt="Instagram"></a>
             </div>
         </div>
-        <div class="col-12 align-content-center text-white" >
+        <div class="col-12 align-content-center text-white" style="font-weight: 400;" >
             <p>©smileschool 2020</p>
         </div>
 </footer>
