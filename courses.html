@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homepage</title>
+    <title>Courses</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap" rel="stylesheet">
@@ -41,7 +41,7 @@
         </nav>
  
         <section>
-            <div>Topics</div>
+            
             <div class=" mt=5">
                 <h1 class="row mb-3 justify-content-center text-white mt-0" style="font-family: Coiny; font-size: 32px; font-weight: 400; line-height: 35px; text-align: center;">
                     <p><< Don't Cry because it's over.</p>
@@ -54,17 +54,37 @@
 
  
     <!--  TESTIMONIALS with Carousel --> 
-    <section class="" style="background-color: #C271FF; align-items: center;"
-        <div class="dropdown">
-        <button class="btn dropdown-toggle" color: type="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Novice
-        </button>
-        <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Novice</a></li>
-            <li><a class="dropdown-item" href="#">Intermediate</a></li>
-            <li><a class="dropdown-item" href="#">Advanced</a></li>
-        </ul>
+    <section class="" style="background-color: #C271FF; align-items: center;">
+
+    <form>
+        <div class="form-row">
+            <div class="col">
+                <label style="color: white; font-weight: 700; font-size: 12px;">KEYWORDS</label>
+                <input type="search" class="form-control" placeholder="Search by Keywords">
+            </div>
+            <div class="col">
+                <label style="color: white; font-weight: 700; font-size: 12px;">TOPICS</label>
+                <hr>
+                <button class="btn dropdown-toggle" style="color: white;" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Novice
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Novice</a></li>
+                    <li><a class="dropdown-item" href="#">Intermediate</a></li>
+                    <li><a class="dropdown-item" href="#">Advanced</a></li>
+                </ul>
+            </div>
+            <div class="col">
+                <label style="color: white; font-weight: 700; font-size: 12px;">SORT BY</label>
+                <select class="form-control">
+                    <option>Most Popular</option>
+                    <option>Lowest Price</option>
+                    <option>Most Expensive</option>
+                    <option>Theme</option>
+                </select>
+            </div>
         </div>
+    </form>
     </section>
 
 <!--VIDEOS-->
