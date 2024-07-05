@@ -20,6 +20,15 @@
     font-family: 'Source Sans Pro-Bold';
 }
 
+
+.navbar-toggler {
+  border-color: rgba(255, 255, 255, 0.1); /* Optional: adjust as needed */
+}
+
+.navbar-toggler-icon {
+  background-image: url("images/Rectangle.png");
+  background-color: white;
+}
 .navbar-background {
     background-image: url("images/background.png");
     background-size: cover; 
