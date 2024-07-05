@@ -57,15 +57,17 @@
     <section class="" style="background-color: #C271FF; align-items: center;">
 
     <form>
-        <div class="form-row">
-            <div class="col">
-                <label style="color: white; font-weight: 700; font-size: 12px;">KEYWORDS</label>
-                <input type="search" class="form-control" placeholder="Search by Keywords">
+        <div class="row p-5">
+            <div class="col-4">
+                <label class="row" style="color: white; font-weight: 700; font-size: 12px;">KEYWORDS</label>
+                <button class="row btn dropdown-item-text"  style="color: white;" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Search by Keyword    
+                </button>
             </div>
-            <div class="col">
-                <label style="color: white; font-weight: 700; font-size: 12px;">TOPICS</label>
-                <hr>
-                <button class="btn dropdown-toggle" style="color: white;" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <div class="col-4">
+
+                <label class="row" style="color: white; font-weight: 700; font-size: 12px;">TOPICS</label>
+                <button class="row btn dropdown-toggle" style="color: white;" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                     Novice
                 </button>
                 <ul class="dropdown-menu">
@@ -74,14 +76,17 @@
                     <li><a class="dropdown-item" href="#">Advanced</a></li>
                 </ul>
             </div>
-            <div class="col">
-                <label style="color: white; font-weight: 700; font-size: 12px;">SORT BY</label>
-                <select class="form-control">
-                    <option>Most Popular</option>
-                    <option>Lowest Price</option>
-                    <option>Most Expensive</option>
-                    <option>Theme</option>
-                </select>
+            <div class="col-4">
+                <label class="row" style="color: white; font-weight: 700; font-size: 12px;">SORT BY</label>
+                <button class="row btn dropdown-toggle" style="color: white;" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Most Popular
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Most Popular</a></li>
+                    <li><a class="dropdown-item" href="#">Lowest Price</a></li>
+                    <li><a class="dropdown-item" href="#">Most Expensive</a></li>
+                </ul>
+
             </div>
         </div>
     </form>
