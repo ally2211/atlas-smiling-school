@@ -1,6 +1,6 @@
 # School Page
 
-## Instructions:  To view the web page created please visit the github pages site:  https://ally2211.github.io/atlas-smiling-school/
+## Instructions:  To view the web page created please visit the github pages site:  https://ally2211.github.io/atlas-smiling-school/homepage.html
 
 ## Header
 - **Menu:**  There 3 menu selections:  Courses, Pricing and Login as well as the Homepage that is described below.
